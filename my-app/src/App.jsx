@@ -174,12 +174,13 @@
 
 
 import React from 'react'
-import { Todo } from './Todo'
+import context from './Context'
+import Home from './Home'
 
 const App = () => {
   return (
     <div>
-      <Todo/>
+      <Home/>
     </div>
   )
 }
